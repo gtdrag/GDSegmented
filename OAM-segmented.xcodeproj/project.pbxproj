@@ -12,6 +12,8 @@
 		D6E8501D20448E4000303CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E8501B20448E4000303CE7 /* Main.storyboard */; };
 		D6E8501F20448E4000303CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E8501E20448E4000303CE7 /* Assets.xcassets */; };
 		D6E8502220448E4000303CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E8502020448E4000303CE7 /* LaunchScreen.storyboard */; };
+		D6E8502A2044950D00303CE7 /* GDSegmented.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E850292044950D00303CE7 /* GDSegmented.swift */; };
+		D6E8502D2047085B00303CE7 /* Bambino.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6E8502C2047085B00303CE7 /* Bambino.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D6E8501E20448E4000303CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E8502120448E4000303CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6E8502320448E4000303CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E850292044950D00303CE7 /* GDSegmented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDSegmented.swift; sourceTree = "<group>"; };
+		D6E8502C2047085B00303CE7 /* Bambino.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bambino.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		D6E8501620448E4000303CE7 /* OAM-segmented */ = {
 			isa = PBXGroup;
 			children = (
+				D6E8502B2047080900303CE7 /* Resources */,
 				D6E8501720448E4000303CE7 /* AppDelegate.swift */,
 				D6E8501920448E4000303CE7 /* ViewController.swift */,
 				D6E8501B20448E4000303CE7 /* Main.storyboard */,
 				D6E8501E20448E4000303CE7 /* Assets.xcassets */,
 				D6E8502020448E4000303CE7 /* LaunchScreen.storyboard */,
 				D6E8502320448E4000303CE7 /* Info.plist */,
+				D6E850292044950D00303CE7 /* GDSegmented.swift */,
 			);
 			path = "OAM-segmented";
+			sourceTree = "<group>";
+		};
+		D6E8502B2047080900303CE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6E8502C2047085B00303CE7 /* Bambino.otf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			files = (
 				D6E8502220448E4000303CE7 /* LaunchScreen.storyboard in Resources */,
 				D6E8501F20448E4000303CE7 /* Assets.xcassets in Resources */,
+				D6E8502D2047085B00303CE7 /* Bambino.otf in Resources */,
 				D6E8501D20448E4000303CE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E8502A2044950D00303CE7 /* GDSegmented.swift in Sources */,
 				D6E8501A20448E4000303CE7 /* ViewController.swift in Sources */,
 				D6E8501820448E4000303CE7 /* AppDelegate.swift in Sources */,
 			);
